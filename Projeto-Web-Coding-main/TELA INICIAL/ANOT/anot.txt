@@ -1,0 +1,49 @@
+    <div class="content">
+        <div class="slide">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+
+            <div class="slide s1">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/35e4ac6339f5fdcc164160a5755790cd.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/26dbd02c9e243dc568bc26b242c3c5aad664233b86a50c42bb7d97f42eb8885e._SX1080_FMjpg_.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://br.web.img3.acsta.net/pictures/16/03/01/16/59/300795.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/11/08/dragon-ball-z-kai_capa-1ib8sl437lvfm.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://store-images.s-microsoft.com/image/apps.27838.13687659141052070.597c3f80-25bd-4e0f-9e57-c5b222575852.9cce8847-c517-4297-a8d1-f773dc56f8cb?q=90&w=480&h=270" alt="">
+            </div>
+
+        </div>
+
+        <div class="navegacao">
+            <label for="slide1">Comida 1</label>
+            <label for="slide2">Comida 2</label>
+            <label for="slide3">Comida 3</label>
+            <label for="slide4">Comida 4</label>
+            <label for="slide5">Comida 5</label>
+        </div>
+
+
+
+
+        align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #02733E;
+    color: #ffffff;
+    font-size: medium;
+    border-radius: 10px;
+    width: 1276px;
+    height: 434px;
+    top: 187px;
+    left: 82px;
+    padding: 40px

@@ -1,0 +1,202 @@
+.barra_de_pesquisa {
+    height: 35px;
+    border-radius: 70px;
+    display: flex;
+ 
+    align-items: center;
+    background: #ffffff; 
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    width: 300px;
+}
+
+.search-btn {
+    width: 30px;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #F26716;
+    font-size: 50px;
+}
+
+.imagem-panela {
+    width: 75px;
+    height: 75px;
+    margin-left: -90px;
+    margin-right: 190px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+    font-style: normal;
+    align-items: center;
+    background-color: #02733E;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    margin: 30px;
+    color: #F26716;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.containerDoCard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px; /* Espaçamento entre os cards */
+    padding: 20px; /* Espaçamento das paredes do site */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px; /* Espaçamento interno */
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de hover */
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+    background-color: #ffffff;
+}
+
+
+.slider-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 300%; /* Para 3 slides */
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 100%; /* Cada slide ocupa 100% */
+    display: flex;
+    height: 400px; /* Altura do slider */
+}
+
+.image-container {
+    width: 50%; /* 50% da largura total do slide */
+    position: relative;
+}
+
+.image-container img {
+    width: 100%; /* Preencher a largura */
+    height: 100%; /* Preencher a altura */
+    object-fit: cover; /* Manter a proporção da imagem */
+}
+
+.dish-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+}
+
+.description-container {
+    width: 50%; /* 50% da largura total do slide */
+    background-color: #02733E; /* Fundo verde */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="radio"] {
+    display: none; /* Esconde os inputs */
+}
+
+#slide1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+/* Estilo para o ponto selecionado */
+input[type="radio"]:checked ~ .navigation .dot {
+    background-color: #F26716; /* Cor para o ponto ativo */
+}
+
+.cabeçalho{
+
+    text-align: center;
+
+}
+
+

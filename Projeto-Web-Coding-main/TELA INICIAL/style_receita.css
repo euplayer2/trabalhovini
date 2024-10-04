@@ -1,0 +1,126 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+    background-color: #ffffff;
+}
+
+h1{
+    color: #F26716;
+    font-size: 50px;
+    
+}
+
+.imagem-panela {
+    width: 10vh;
+    height: 10vh;
+    
+}
+
+.barra_de_pesquisa {
+    height: 35px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    width: 300px;
+
+}
+
+.search-btn {
+    width: 30px;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+    font-style: normal;
+    align-items: center;
+    background-color: #02733E;
+    box-sizing: border-box;
+
+    
+
+}
+
+
+
+
+h2 {
+    margin: 30px;
+    color: #F26716;
+    font-size: 50px;
+}
+
+
+.imagem-da-receita {
+    border-radius: 10%;
+    margin: 20px;
+}
+
+.receita {
+    background-color: #02733E;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: medium;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px; 
+    margin: 5px;
+    
+}
+
+ 
+
+
+.modo-de-preparo, .ingredientes {
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+
+.logo-nome {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    font-family: Inria Serif;
+font-size: 30px;
+font-weight: 500;
+line-height: 40px;
+}
+
+
+    .txt-imagem {
+        font-size: 25px;
+        margin-left: 22px;
+    }
+
+
