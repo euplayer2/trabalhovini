@@ -1,0 +1,122 @@
+.barra_de_pesquisa {
+    height: 50px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    background: #ffffff; 
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.txt-panela {
+    border-bottom: solid #F26716;
+    border-top: solid #F26716;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    width: 300px;
+    padding: 15px;
+}
+
+.search-btn {
+    width: 30px;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #F26716;
+    font-size: 50px;
+}
+
+.imagem-panela {
+
+    width: 90px;
+    height: 90px;
+    margin-left: -90px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+    font-style: normal;
+    align-items: center;
+    background-color: #02733E;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    margin: 30px;
+    color: #F26716;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.containerDoCard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px; /* Espaçamento entre os cards */
+    padding: 20px; /* Espaçamento das paredes do site */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px; /* Espaçamento interno */
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de hover */
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+    background-color: #ffffff;
+    
+}
+
